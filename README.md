@@ -18,4 +18,5 @@ npm run build
 npm run build --report
 ```
 
+> After running above steps, hit http://localhost:8080 to run the application
 
