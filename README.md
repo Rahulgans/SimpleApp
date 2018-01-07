@@ -1,6 +1,6 @@
 # simple-app
 
-> A Vue.js project
+> A Vue.js Single Page application
 
 ## Build Setup
 
@@ -17,5 +17,12 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
+## Tools
 
+``` 
+# Vue-CommandLine
+
+
+```
+> After running above steps, hit http://localhost:8080 to run the application
 
