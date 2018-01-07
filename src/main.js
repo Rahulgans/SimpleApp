@@ -13,10 +13,8 @@ Vue.config.productionTip = false
 
 new Vue({
   el: '#vue-app',
-
   //injecting the router's configuration
   router,
-  
   template: '<App/>',
   components: { App }
 })

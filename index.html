@@ -10,46 +10,55 @@
     	
 		body {
 			font-family: 'Alegreya', serif;
-			margin: 0em 2em;
-			background-color: #f7f3f3;
+			/*margin: 0em 2em;*/
+			background-color: #F5F5F5;
 		}
 
 		.navbar {
 
 			padding: 1em;
-			background-color: lightgrey;
+			background-color: #1c3a48;
 			list-style-type: none;
 			display: flex;
 		    align-items: center;
 		    justify-content: space-between;
 		}
 
+		.logo-title{
+
+			font-family: fantasy;
+			color: ghostwhite;
+			padding-left: 1.5em;
+			position: relative;
+		}
+
+		.logo{
+
+			position: absolute;
+			right: 0;
+			margin: 0em;
+			font-size: 10px;
+			padding: 3px 5px;
+			font-family: sans-serif;
+			background-color: #f76666;
+		}
+
 		.navbar a{
 			text-decoration: none;
-			color: black; 
+			color: ghostwhite; 
 		}
 
-		.footer{
-
-			display: flex;
-			flex-wrap: nowrap;
-			justify-content: space-between;
-			padding: 1.5em;
-			margin-top: 1em;
-			background-color: lightgrey;
-		}
-
-		.footer a{
-			text-decoration: none;
-			font-size: 1em;
-			color: black;
-		}
 
 		@media screen and (max-width: 480px){
 
 			.navbar{
 
 				flex-direction: column;
+			}
+
+			.logo-title{
+
+				padding: 0em;
 			}
 
 			.footer{
@@ -67,8 +76,8 @@
     <header>
 		<div>
 			<ul class="navbar">
-				<li><h3>IndiaBizForSale</h3></li>
-				<li style="padding-right: 1.5em; font-size: 1.5em;"><a href="/"><strong>Home</strong></a></li>
+				<li><h1 class="logo-title">INDIABIZ<span><p class="logo">For Sale</p></span></h1></li>
+				<li style="padding-right: 1.5em; font-size: 1.5em;"><a href="/">Home</a></li>
 			</ul>
 		</div>
 	</header>
@@ -76,15 +85,6 @@
 	<!-- Placeholder for our pages created by VUE -->
 	<main id="vue-app">
 	</main>
-	<footer>
-		<div class="footer">
-			
-			<a href="#">Terms&Policy</a>
-			<a href="https://www.indiabizforsale.com/" target="blank">IndiaBizForSale</a>
-			<a href="#">Contact</a>
-
-		</div>
-	</footer>
  
   </body>
 </html>
